@@ -16,6 +16,7 @@ func bubbleSort(array:[Int]) -> [Int] {
         return newArray
     }
     ```
+    
 ## SelectionSort
 ```
  override func sort( array: inout [Int]) -> [Int] {
@@ -35,7 +36,9 @@ func bubbleSort(array:[Int]) -> [Int] {
         return array
     }
 ```
+
 ## InsertionSort
+
 ```
 class InsertionSort: Sort {
     override func sort(array: inout [Int]) -> [Int] {
@@ -73,6 +76,7 @@ extension Int {
 ```
 
 ## MergeSort 
+
 ```
 class Mergesort: Sort {
     
@@ -115,7 +119,4 @@ class Mergesort: Sort {
         }
     }
 }
-
-
-
 ```
