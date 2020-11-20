@@ -1,6 +1,6 @@
 # Sort_Algorithm
 use swift to write the sort algorithm
-## Bubble sort
+## BubbleSort
 ```
 func bubbleSort(array:[Int]) -> [Int] {
         var newArray = array
