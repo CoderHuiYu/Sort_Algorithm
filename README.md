@@ -54,26 +54,6 @@ class InsertionSort: Sort {
     }
 }
 
-struct Vector2D {
-    var x = 0.0
-    var y = 0.0
-}
-
-extension Vector2D {
-    static func + (left: Vector2D, right: Vector2D) -> Vector2D {
-        return Vector2D(x: left.x + right.x, y: left.y + right.y)
-    }
-    
-}
-
-infix operator ..>
-extension Int {
-    static func ..> (minimum: Int, maximum: Int) -> Range<Int> {
-        let range = Range(uncheckedBounds: (lower: minimum, upper: maximum))
-        return range
-    }
-}
-
 ```
 
 ## MergeSort 
