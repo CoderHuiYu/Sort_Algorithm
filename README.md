@@ -15,8 +15,9 @@ func bubbleSort(array:[Int]) -> [Int] {
         }
         return newArray
     }
-    ```
-    
+```
+
+
 ## SelectionSort
 ```
  override func sort( array: inout [Int]) -> [Int] {
